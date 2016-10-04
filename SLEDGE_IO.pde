@@ -2,11 +2,6 @@
   float y = 0;
   float otherx = 100;
   float othery = 100;
-  float coolx;
-  float cooly;
-  float difx;
-  float dify;
-  float angle;
 void setup(){
   size(600,600);
   translate(width/2,height/2);
