@@ -1,7 +1,7 @@
   float x = 0;
   float y = 0;
-  float otherx = 10;
-  float othery = 10;
+  float otherx = 100;
+  float othery = 100;
   float coolx;
   float cooly;
   float difx;
@@ -19,18 +19,7 @@ void draw(){
   translate(mouseX,mouseY);
   ellipse(0,0,16,16);
   rotate(frameCount*0.04);
-  otherx = x-mouseX;
-  othery = y-mouseY;
   ellipse(otherx,othery,32,32);
-  //float distance = dist(otherx,othery,x,y);
-  //print(distance+"\n");
-  //difx = abs(otherx-x);
-  //dify = abs(othery-y);
-  //angle = atan(dify/difx) ;
-  //print(angle+"\n");
-  //angle+=0.001;
-  //otherx =distance * cos(angle);
-  //othery =distance * sin(angle);
   
   
   
