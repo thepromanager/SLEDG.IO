@@ -1,5 +1,3 @@
-  float x = 0;
-  float y = 0;
   float otherx = 100;
   float othery = 100;
 void setup(){
@@ -9,8 +7,6 @@ void setup(){
 
 void draw(){
   background(151);
-  x = mouseX;
-  y = mouseY;
   translate(mouseX,mouseY);
   ellipse(0,0,16,16);
   rotate(frameCount*0.04);
